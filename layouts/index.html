@@ -42,7 +42,7 @@
             style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div id="bggradient" class="bggradient">
+    <div id="bggradient img-header" class="bggradient">
 
         <!--
 Start of Floodlight Tag: Please do not remove
@@ -70,12 +70,12 @@ Creation Date: 05/20/2019
             gtag('config', 'AW-807793275');
         </script>-->
         {{ partial "nav.html" . }}
-        <div class="hero" data-ix="appearhomenav">
+        <div class="hero img-header" data-ix="appearhomenav">
             <picture>
-                <source srcset="images/castle23.webp" type="image/webp">
-                <img src="images/castle23.png" class="castle">
+                <source srcset="images/leaves-header-left.webp" type="image/webp">
+                <img src="images/leaves-header-left.png" class="castle">
             </picture>
-            <img data-src="https://res.cloudinary.com/dxswtxauo/image/upload/v1580826413/treebottomright_aceqat.png"
+            <img data-src="https://res.cloudinary.com/dfxcx0tos/image/upload/v1583424853/Feuilles3_iypol4.webp"
                 class="treebottom lozad">
             <div class="container containhero">
                 <div id="w-node-c85380380b13-feae796a" class="hero-content"> {{ partial "circlelogo.html" }}
@@ -85,32 +85,34 @@ Creation Date: 05/20/2019
                         TICKETS</a> <a href="https://www.facebook.com/events/544608079603530/" target="_blank"
                         class="btn-hero reverse w-button">attend event</a>
                 </div>
+               
             </div>
+           
         </div>
         <section class="_01">
             <img data-src="images/leaves3-reverse.png" width="200" data-w-id="1f5b7647-20c3-046e-6657-95b6a164e7db"
                 alt="" class="feuillegrise lozad">
             <picture>
-                <source data-srcset="/images/leaves3.webp" type="image/webp">
+                <source data-srcset="https://res.cloudinary.com/dfxcx0tos/image/upload/v1583423371/feuille_208_mxhnpt.webp" type="image/webp">
                 <img data-src="images/leaves3.png" width="200" alt="" class="feuillegriseleft lozad">
-            </picture>
-            <picture>
-                <source srcset="images/tree2.webp" type="image/webp">
-                <img data-src="images/tree2.png" width="400" alt="" class="tree2 lozad">
+                <picture>
+                    <source data-srcset="https://res.cloudinary.com/dfxcx0tos/image/upload/v1583423371/feuille_208_mxhnpt.webp" type="image/webp">
+                    <img data-src="images/leaves3.png" width="200" alt="" class="feuillegriseleft lozad">
+                </picture>
+                <picture>
+                    <source data-srcset="https://res.cloudinary.com/dfxcx0tos/image/upload/v1583423371/feuille_208_mxhnpt.webp" type="image/webp">
+                    <img data-src="images/leaves3.png" width="200" alt="" class="feuilleleftbottom lozad">
+                </picture>
             </picture>
             <!--            <img data-src="images/shapesrightintro.png" width="417" alt="" class="shapeesrightintro lozad">-->
             <div class="container split paddingtop">
                 <div id="w-node-dccfab5c11a5-feae796a" class="block50 bgwhite">
-                    <picture>
-                        <source data-srcset="images/ctaleaves.webp" type="image/webp">
-                        <img data-src="images/ctaleaves.png" width="150" alt="" class="lozad"
-                            style="position: absolute; z-index: 999;right:-150px;top:160px">
-                    </picture>
+                
                     {{.Content }}
 
                 </div>
                 <div id="w-node-b00e1d967f4d-feae796a" class="block50">
-                    <img data-src="https://res.cloudinary.com/dxswtxauo/image/upload/v1580829659/cloudcta_w2p0go.png"
+                    <img data-src="https://res.cloudinary.com/dfxcx0tos/image/upload/v1583423371/Groupe_225_ifxt1n.webp"
                         class="cloudcta lozad" width="400">
                     {{partial "lightbox.html"}}
                 </div>
@@ -181,6 +183,7 @@ Creation Date: 05/20/2019
             </div>
         </div>
         {{ partial "widgetsm.html"}}
+        <DIV class="background-blue-orange ">
         {{ partial "cta.html" }}
         <div class="section-partners">
             <picture>
@@ -196,8 +199,9 @@ Creation Date: 05/20/2019
                     width="137" alt="" class="logobottom lozad">
                 <!--<img src="../images/Image-15.png" alt="" class="partnerimg"><img src="../images/Image-14.png" alt="" class="partnerimg"><img src="../images/Image-29.png" alt="" class="partnerimg"><img src="../images/Image-31.png" alt="" class="partnerimg"><img src="../images/Image-23.png" alt="" class="partnerimg"><img src="../images/Image-20.png" alt="" class="partnerimg"><img src="../images/Image-17.png" alt="" class="partnerimg"><img src="../images/Image-13.png" alt="" class="partnerimg"><img src="../images/Image-16.png" alt="" class="partnerimg"><img src="../images/Image-22.png" alt="" class="partnerimg"><img src="../images/Image-18.png" alt="" class="partnerimg"><img src="../images/Image-25.png" alt="" class="partnerimg"><img src="../images/Image-27.png" alt="" class="partnerimg"><img src="../images/Image-19.png" alt="" class="partnerimg"><img src="../images/Image-24.png" alt="" class="partnerimg"><img src="../images/Image-30.png" alt="" class="partnerimg"><img src="../images/minilogoorange.svg" width="137" alt="" class="logobottom"><img src="../images/Image-21.png" alt="" class="partnerimg"><img src="../images/Image-26.png" alt="" class="partnerimg"></div>-->
             </div>
-            <img data-src="/images/bgfoot-test.png" alt="" class="image-2 lozad"> {{ partial "scripts.html" . }}
+            <img data-src="/images/bgfoot-footer.png" alt="" class="image-2 lozad"> {{ partial "scripts.html" . }}
         </div>
+    </div>
         <script>
             const observer = lozad(); // lazy loads elements with default selector as '.lozad'
             observer.observe();
