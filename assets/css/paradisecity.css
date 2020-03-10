@@ -82,9 +82,20 @@ a svg:hover {
 }
 
 .leftwriting {
-  position: absolute;
-  top: -149px;
-  left: -25px;
+  position: RELATIVE;
+  top: 22px;
+  left: 32px;
+  width: 10%;
+}
+.feuillesbottomlineup3{
+  left: 0;
+width: 13%;
+position: absolute;
+top: 750px;
+}
+.center{
+  margin-left: 41%;
+  transform: translateX(-50%);
 }
 
 .body.home {
@@ -107,9 +118,9 @@ a svg:hover {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #fb9cb7;
-  background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(253, 151, 182, 0.28)), to(rgba(255, 128, 75, 0.8))), url(/images/bgpattern2.jpg);
-  background-image: linear-gradient( 90deg, rgba(253, 151, 182, 0.28), rgba(255, 128, 75, 0.8)), url(/images/bgpattern2.jpg);
+  background-color: #EF9C79;
+  /* background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(253, 151, 182, 0.28)), to(rgba(255, 128, 75, 0.8))), url(/images/bgpattern2.jpg); */
+  /* background-image: linear-gradient( 90deg, rgba(253, 151, 182, 0.28), rgba(255, 128, 75, 0.8)), url(/images/bgpattern2.jpg); */
   background-position: 0px 0px, 0px 0px;
   background-size: auto, 20px 200px;
 }
@@ -283,7 +294,7 @@ a svg:hover {
   flex: 0 auto;
   background-color: transparent;
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -291,7 +302,7 @@ a svg:hover {
   margin-left: 30px;
   padding-top: 20px;
   padding-left: 20px;
-  color: #fff;
+  color: white;
   font-size: 15px;
 }
 
@@ -307,7 +318,7 @@ a svg:hover {
 .hero {
   position: relative;
   display: block;
-  height: 100vh;
+  height: 120vh;
   max-height: 750px;
   justify-items: start;
   -webkit-box-align: center;
@@ -320,9 +331,13 @@ a svg:hover {
 
 .treebottom {
   position: absolute;
-  bottom: -71%;
-  right: -100px;
-  width: 800px;
+  bottom: -18%;
+  z-index: 999;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 35%;
 }
 
 .castle {
@@ -374,12 +389,12 @@ a svg:hover {
   margin-top: 7px;
   padding: 20px 60px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: white;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
-  color: #fb9cb7;
+  color: #EF9C79;
   font-size: 24px;
   line-height: 21px;
   text-transform: uppercase;
@@ -399,9 +414,9 @@ a svg:hover {
 
 .btn-hero.reverse {
   margin-left: 12px;
-  border: 1px solid #fff;
+  border: 1px solid white;
   background-color: transparent;
-  color: #fff;
+  color: white;
 }
 
 .brand {
@@ -486,7 +501,7 @@ a svg:hover {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   font-family: Akrobat;
-  color: #fff;
+  color: white;
 }
 
 .section-heading {
@@ -506,12 +521,12 @@ a svg:hover {
 .cloudcta {
   position: absolute;
     top: -233px;
-    WIDTH: 41%;
-    right: -70px;
+    WIDTH: 13%;
+    right: 0px;
     z-index: 9999;
 }
 div#w-node-dccfab5c11a5-feae796a{
-  padding: 10px 60px;
+  padding: 30px 60px;
 }
 
 .thumbvideo {
@@ -595,7 +610,7 @@ div#w-node-dccfab5c11a5-feae796a{
   padding: 10px 20px 60px 50px;
   align-content: space-around;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 3px 3px 49px 14px rgba(0, 0, 0, 0.06);
 }
 
@@ -734,7 +749,7 @@ h3.section-intro.nomargin.greenz {
 
 .text-block {
   position: relative;
-  background-color: #fff;
+  background-color: white;
 }
 
 .utility-page-wrap {
@@ -793,7 +808,7 @@ h3.section-intro.nomargin.greenz {
   padding-bottom: 75px;
   background-position: 50% 50%;
   background-size: cover;
-  color: #fff;
+  color: white;
   text-align: center;
 }
 
@@ -839,12 +854,13 @@ h3.section-intro.nomargin.greenz {
   margin-top: 7px;
   padding: 15px 40px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: white;
   font-family: Akrobat;
   color: #fa8d76;
   font-size: 15px;
   text-transform: uppercase;
 }
+
 
 .btcta:hover {
   box-shadow: 0 0 33px -1px #bd6a59;
@@ -862,7 +878,7 @@ h3.section-intro.nomargin.greenz {
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   font-size: 15px;
 }
 
@@ -880,7 +896,7 @@ h3.section-intro.nomargin.greenz {
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   cursor: pointer;
 }
 
@@ -966,7 +982,7 @@ svg:not(:root) {
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
-  color: #fff;
+  color: white;
   font-size: 14px;
   position: absolute;
   right: 20px;
@@ -986,7 +1002,7 @@ svg:not(:root) {
   height: 2px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #fff;
+  background-color: white;
 }
 
 .section-green {
@@ -994,7 +1010,7 @@ svg:not(:root) {
   background-image: none;
   background-position: 0px 0px;
   background-size: auto;
-  color: #fff;
+  color: white;
   position: relative;
 }
 
@@ -1020,7 +1036,7 @@ svg:not(:root) {
   position: relative;
   overflow: visible;
   padding-top: 26px;
-  color: #fff;
+  color: white;
 }
 
 .partnerimg {
@@ -1071,24 +1087,30 @@ svg:not(:root) {
 
 .feuillegrise {
   position: absolute;
-  top: 400px;
-  right: 0;
-  z-index: 100;
+    top: 209px;
+    width: 20%;
+    right: 0;
+    z-index: 100;
+}
+.feuillesarbre2{
+  position: absolute;
+  top: -59px;
+  width: 40%;
 }
 
-.feuillegriseleft {
+.feuillegriset {
   position: absolute;
-  top: 40px;
+  top: 150px;
   left: 0;
   z-index: 100;
-  width: 10%;
+  width: 7%;
 }
 .feuilleleftbottom {
   position: absolute;
-  top: -220px;
+  top: -148px;
   left: 0;
   z-index: 100;
-  width: 13%;
+  width: 7%;
 }
 
 .tree2 {
@@ -1098,15 +1120,52 @@ svg:not(:root) {
 
 .feuillesbottomlineup {
   position: absolute;
-  left: -5px;
+  left: 0PX;
   z-index: 100003;
-  top: -120px;
+  top: 196PX;
+  WIDTH: 42%;
+}
+.feuillesbottomlineup.reverse{
+  transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+}
+.btcta.w-button.buttonbelow{
+  position: absolute;
+  left: 47%;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+
+.feuillesbottomlineup4{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  z-index: 1;
+  position: absolute; top: 0; right: 0; z-index: 1;
+}
+.containerbottom{
+  padding-bottom: 100px;
+}
+img.leavescenter{
+  position: absolute;
+    right: -243px;
+    top: 105px;
+    z-index: 1;
+    WIDTH: 84%;
+    transform: rotate(70deg);
+}
+.block50.bgwhite.padding{
+  padding: 60px 50px 68PX 105PX;
 }
 
 .feuillesbottomlineup2 {
-  right: 0;
+  right: 432PX;
   position: absolute;
-  top: -140px;
+  top: -128px;
+  WIDTH: 12%;
 }
 
 .nuages {
@@ -1164,7 +1223,7 @@ svg:not(:root) {
   background-color: #fffdf8;
   box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.06);
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   z-index: 999999999;
 }
@@ -1333,20 +1392,20 @@ svg:not(:root) {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 4px;
-  background-color: #fa8d76;
+  background-color: white;
   box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.12);
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Akrobat;
-  color: #fff;
+  color: #EF9C79;
   font-size: 44px;
   text-transform: uppercase;
   z-index: 999999;
-  background-image: url("https://res.cloudinary.com/dxswtxauo/image/upload/v1580829029/ctacloudright_itjoln.png");
+  /* background-image: url("https://res.cloudinary.com/dxswtxauo/image/upload/v1580829029/ctacloudright_itjoln.png"); */
   background-position: right;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: auto 100%;
 }
 
@@ -1380,7 +1439,7 @@ svg:not(:root) {
   background-color: #fffdf8;
   box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.06);
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -1419,7 +1478,7 @@ svg:not(:root) {
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   font-size: 54px;
   text-align: center;
   text-transform: uppercase;
@@ -1512,7 +1571,7 @@ details summary p a {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   background-color: #fa8d76;
-  color: #fff;
+  color: white;
   font-size: 18px;
   border-radius: 17px;
   padding-right: 30px;
@@ -1521,11 +1580,11 @@ details summary p a {
 
 .lastnav:hover {
   opacity: 0.6;
-  color: #fff;
+  color: white;
 }
 
 .lastnav.w--current {
-  color: #ffffff;
+  color: whitefff;
 }
 
 body.news a.navlink-black.w-nav-link[href="/news"], body.green a.navlink-black.w-nav-link[href="/green"], body.food a.navlink-black.w-nav-link[href="/food"], body.practical a.navlink-black.w-nav-link[href="/practical"], body.contact a.navlink-black.w-nav-link[href="/contact"], body.artists a.navlink-black.w-nav-link[href="/lineup"] {
@@ -1718,7 +1777,7 @@ h3.daytxt {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: Akrobat;
-  color: #fff;
+  color: white;
   font-size: 26px;
   line-height: 22px;
   font-weight: 500;
@@ -1899,7 +1958,7 @@ button.btcta.rev.form {
   width: 50px;
   height: 240px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.22);
   z-index: 99999999;
 }
@@ -1976,7 +2035,7 @@ button.joinustxt {
   -webkit-box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.22);
   box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.22);
   border-radius: 10px;
-  background-color: #fff;
+  background-color: white;
   padding: 44px 10px 20px 60px;
   width: 290px;
   height: 100%;
@@ -2009,7 +2068,7 @@ button.joinustxt {
   border: none;
   margin-bottom: 26px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: white;
   padding: 0.5em 1em;
   color: #cecece;
   width: 90%;
@@ -2039,7 +2098,7 @@ button.joinustxt {
   font-size: 13px;
   padding: 1em 2em;
   outline: 0;
-  color: #fff;
+  color: white;
   width: auto;
   background-color: #fa8d76;
   -webkit-box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.1);
@@ -2083,7 +2142,42 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
 @media (max-width: 991px) {
   .w-nav-button.w--open {
     background-color: #fc8872;
-    color: #fff;
+    color: white;
+  }
+  .txtcta.align{
+    text-align: center;
+  }
+  .container.split.nomargin{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .btcta.w-button.buttonbelow {
+    position: absolute;
+    left: 47%;
+  }
+  .leftwriting {
+    left: 80px;
+}
+.section-green {
+  padding-top: 0px;
+}
+.block50.bgwhite.padding{
+  padding:48px;
+}
+.containerbottom {
+  padding-bottom: 35px;
+}
+.lineu{
+  margin-bottom: -120px;
+  padding-top: 76px;
+
+}
+  .center{
+    margin-left: -15%;
+    transform: translateX(-15%);
+  }
+  .treebottom {
+    display: none;
   }
   .w-nav-overlay {
     position: absolute;
@@ -2097,6 +2191,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .container {
     width: auto;
     max-width: 1200px;
+    margin: 10% 2%;
   }
   .container.split {
     -webkit-box-orient: vertical;
@@ -2159,6 +2254,8 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .container.writing {
     text-align: center;
+    margin: 0px 40px;
+    padding-top: 0px;
   }
   .container.containhero {
     -webkit-box-pack: center;
@@ -2172,8 +2269,10 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .navbar {
     display: inline-block;
-    margin-top: 0px;
-  }
+    margin-top: 0;
+    background: white;
+    height: 80px;
+}
   .hero-content {
     padding-right: 0px;
     -webkit-box-flex: 0;
@@ -2193,6 +2292,8 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    width: 50%;
+    MARGIN: AUTO;
   }
   .brand {
     position: relative;
@@ -2204,13 +2305,14 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     float: none;
   }
   ._01 {
-    margin-top: -269px;
-    padding-top: 179px;
-    background-position: 0px 0px;
+    margin-top: -81px;
+    padding-top: 0px;
+    background-position: 0 0;
     background-size: cover;
-  }
+}
   .block50 {
     max-width: 100%;
+    margin: auto;
   }
   .block50.bgwhite {
     max-width: 89%;
@@ -2321,8 +2423,8 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .homefixednav {
     display: inline-block;
-    height: auto;
-    margin-top: 0px;
+    margin-top: 0;
+    background-color: white;
   }
   .lastnav {
     display: none;
@@ -2344,16 +2446,26 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     width: 123px;
   }
   .ctaleafright {
-    max-width: 30%;
+    display: none;
   }
   .ctaleaves {
     max-width: 30%;
     top: 50px;
     left: -70px;
   }
+  .ctaleaves.lozad{
+    display: none;
+  }
+  .logobottom{
+    position: absolute;
+    bottom: -100px;
+}
+.image-2 {
+  margin-top: 0px !important;
+}
   .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;
-    background-color: #fffdf8;
+    background-color: white;
     border-top: 1px solid lightgrey;
   }
   .w--nav-link-open {
@@ -2374,12 +2486,20 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .w-nav[data-collapse="medium"] .w-nav-button {
     display: block;
-    color: #fc8872;
+    color: #EF9C79;
     background-color: white;
   }
 }
 
 @media (max-width: 767px) {
+  div#w-node-dccfab5c11a5-feae796a {
+    padding: 30px 60px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 24px 0 rgba(0, 0, 0, 0.12);
+    margin: 20px auto;
+    z-index: 2;
+}
   .btn-hero {
     font-size: 16px;
   }
@@ -2409,13 +2529,16 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .section-intro.col.whitebg img {
     position: relative;
   }
+ 
   .container {
     padding-right: 10px;
     padding-left: 10px;
   }
   .container.split.paddingtop {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left:0px;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -2423,6 +2546,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     flex-direction: column-reverse;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    background-color: #EF9C79;
     flex-wrap: wrap;
   }
   .linkblog {
@@ -2449,7 +2573,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     box-shadow: 1px 1px 24px 0 rgba(0, 0, 0, .12);
     transition: transform 200ms ease;
     font-family: Akrobat;
-    color: #fff;
+    color: white;
     cursor: pointer;
     margin-bottom: 10px;
     ;
@@ -2494,6 +2618,12 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     font-size: 34px;
     text-align: center;
   }
+  .navbar {
+    display: inline-block;
+    margin-top: 0;
+    background: white;
+    height: 80px;
+  }
   .nav-menu {
     height: 100vh;
     background-color: #fffdf8;
@@ -2512,9 +2642,29 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .btn-hero {
     background-color: #fffdf8;
     display: block;
+    width: 54%;
+    padding: 10px 0PX;
+    margin: auto;
   }
-  .btn-hero.reverse {
-    margin-left: 0px;
+  
+  .containhero {
+    display: flex;
+    height: 86%;
+  }
+  .castle {
+    position: absolute;
+    width: 57%;
+  }
+  .cloudcta {
+    position: absolute;
+    top: 168px;
+    width: 22%;
+    right: 0;
+    z-index: 9999;
+}
+    .btn-hero.reverse {
+      margin: auto;
+      margin-top: 11px;
   }
   .brand {
     position: absolute;
@@ -2537,7 +2687,6 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .block50.bgwhite {}
   .block50.padding-left {
     padding-right: 20px;
     padding-left: 20px;
@@ -2553,9 +2702,30 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .section-heading {
     text-align: center;
   }
+  .feuilleleftbottom {
+    position: absolute;
+    top: -48px;
+    left: 0;
+    z-index: 100;
+    width: 17%;
+}
+.feuillegriseleft {
+    position: absolute;
+    top: 202px;
+    left: 0;
+    z-index: 100;
+    width: 15%;
+}
+.feuillegrise {
+    top: -48px;
+    right: -14px;
+    width: 42%;
+}
   .thumbvideo {
     border-radius: 20px;
     box-shadow: 0 0 50px -3px rgba(0, 0, 0, 0.27);
+    max-width: 100%;
+    margin: -10px 0px;
   }
   .image {
     border-radius: 0px;
@@ -2601,6 +2771,10 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   h3.section-intro.nomargin.greenz {
     text-align: center;
+  }
+  h3.section-intro{
+    text-align: center;
+    font-size: 1.4em;
   }
   .section-intro.nomargin {
     text-align: center;
@@ -2666,11 +2840,6 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     right: -90px;
     width: 138px;
   }
-  .feuillegrise {
-    top: 300px;
-    right: -60px;
-    width: 159px;
-  }
   .feuillesbottomlineup {
     left: -170px;
     bottom: -170px;
@@ -2684,7 +2853,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     top: 0px;
     right: 0px;
     z-index: 1000;
-    color: #fff;
+    color: white;
   }
   .menu-button.w--open {
     background-color: #fa8d76;
@@ -2734,7 +2903,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     width: 190px;
   }
   .navmenu2 {
-    background-color: #fff;
+    background-color: white;
   }
   .ctaticket {
     margin-top: 60px;
@@ -2745,8 +2914,12 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  div.img-header{
+  background-position: bottom;
+    background-size: contain;
+}
   .homefixednav {
-    height: auto;
+    height: 0;
     padding-top: 0px;
     -webkit-transform: translate(0px, -100px);
     -ms-transform: translate(0px, -100px);
@@ -3212,6 +3385,9 @@ Main Components
 body.fri .link-table[href="/timetable/friday"], body.sat .link-table[href="/timetable/saturday"], body.sun .link-table[href="/timetable/sunday"] {
   color: #fa8d76;
 }
+h3.section-intro{
+  color:white;text-shadow: 2px 2px 7px #2d282885; text-align:left;
+}
 
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
@@ -3284,7 +3460,16 @@ body.fri .link-table[href="/timetable/friday"], body.sat .link-table[href="/time
     width: 100%;
   }
   body.is-opened .homefixednav.is-visible #mobile-nav {
-    top: 75px;
+    top: 98px;
+  }
+  .feuillesbottomlineup {
+    width: 46%;
+    top: 173px;
+  }
+  .feuillesarbre2 {
+    position: absolute;
+    top: -93px;
+    width: 53%;
   }
   body.is-opened #mobile-nav .nav-link {
     margin: 10px auto;
@@ -3301,7 +3486,7 @@ body.fri .link-table[href="/timetable/friday"], body.sat .link-table[href="/time
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #fffdf8;
+    background-color: white;
   }
   .homefixednav.is-visible #mobile-nav {
     top: 99px;
@@ -3311,6 +3496,16 @@ body.fri .link-table[href="/timetable/friday"], body.sat .link-table[href="/time
 @media screen and (max-width: 479px) {
   .homefixednav.is-visible #mobile-nav {
     top: 75px;
+  }
+  h3.section-intro{
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .feuillesarbre2 {
+    position: absolute;
+    top: -103px;
+    width: 92%;
+    z-index: 1;
   }
 }
 
