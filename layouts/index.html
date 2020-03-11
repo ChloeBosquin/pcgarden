@@ -148,15 +148,16 @@ Creation Date: 05/20/2019
         </section>
         <div class="lineu lozad">
             <div class="container">
-                <h3 class="section-cta">Line-Up announced soon!</h3>
+                <h3 class="section-cta">{{.Params.lineuptitle}}</h3>
                 <div class="line"></div>
 				<br><br>
-				{{ range where .Site.RegularPages "Section" "artist"}}
-                <a class="section-cta home" href="{{.Permalink}}">{{.Params.name}}</a>{{end}}<br>
-               <a href="/lineup" class="btcta w-button" style="position: relative; z-index:99999999999;margin-top:30px;">SEE LINE-UP →</a>
+				<span class="section-cta home">{{.Params.lineuptxt}}</span>
+				<!--{{ range where .Site.RegularPages "Section" "artist"}}
+                <a class="section-cta home" href="{{.Permalink}}">{{.Params.name}}</a>{{end}}<br>-->
+               <a href="/lineup" class="btcta rev w-button" style="position: relative; z-index:99999999999;">SEE LINE-UP →</a>
             </div>
-            <img data-src="images/feuilles284.webp" width="750" alt="" class="feuillesbottomlineup3 lozad">
         </div>
+
         <div class="section-green">
             <img data-src="/images/feuillesarbre2.webp" width="500" alt="" class="feuillesbottomlineup lozad reverse">
             <img data-src="images/Groupe235.webp" width="750" alt="" class="feuillesbottomlineup2 lozad">
@@ -190,7 +191,23 @@ Creation Date: 05/20/2019
         </div>
         {{ partial "widgetsm.html"}}
         <DIV class="background-blue-orange ">
-        {{ partial "cta.html" }}
+            <a href="/tickets" class="ctaticket w-inline-block">
+                <picture>
+                        <source data-srcset="/images/Groupe225.webp" type="image/webp">
+                        <img data-src="/images/Groupe225.webp" width="200" alt="" class="ctaleaves lozad" style="width:17%;transform: scale(-1);
+                        "> </picture>
+                
+                        <source data-srcset="/images/Feuilles1.webp" type="image/webp">
+                        <img data-src="/images/Feuilles1.webp" width="200" alt="" class="ctaleafright lozad" style=""> </picture>
+                <div class="container split nomargin"> 
+                        
+                        <!--                <picture style="position: absolute; bottom: 0px; left:0">
+                                    <source data-srcset="/images/shapesblog-2small.webp" type="image/webp">
+                                    <img data-src="/images/shapesblog-2small.png" width="159" class="lozad"></picture>-->
+                        <div class="txtcta align">STILL DIDN&#x27;T GET YOUR TICKETS?</div>
+                        <div class="btn-hero" style="color:white;background-color:#EF9C79; text-align: center;">book them now !</div>
+                </div>
+                </a>
         <div class="section-partners">
             <picture>
                 <source data-srcset="images/green.webp" type="image/webp">

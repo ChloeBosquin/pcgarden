@@ -413,7 +413,7 @@ top: 556px;
 }
 
 .btn-hero.reverse {
-  argin-left: 0PX;
+  align-left: 0PX;
   /* border: 1px solid #fff; */
   background-color: WHITE;
   color: #ef9c79;
@@ -1041,7 +1041,7 @@ svg:not(:root) {
 }
 
 .partnerimg {
-  osition: relative;
+  position: relative;
   width: 87px;
   margin-right: 40px;
   margin-bottom: 42px;
@@ -1112,6 +1112,10 @@ svg:not(:root) {
   left: 0;
   z-index: 100;
   width: 7%;
+}
+#ctanothome{
+  background-color: #EF9C79;
+  color: white;
 }
 
 .tree2 {
@@ -1260,6 +1264,17 @@ img.leavescenter{
   left: 0px;
   bottom: -30px;
 }
+.cloud-right{
+  position: absolute;
+    TOP: 214PX;
+    left: 500PX;
+}
+.cloud-left{
+  position: absolute;
+    TOP: 142PX;
+    left: 1474PX;
+    width: 8%;
+}
 
 .uppagebody {
   position: absolute;
@@ -1269,6 +1284,7 @@ img.leavescenter{
 .uppagebody-left {
   position: absolute;
   left: 0;
+  width: 20%;
 }
 
 .bradn2:hover {
