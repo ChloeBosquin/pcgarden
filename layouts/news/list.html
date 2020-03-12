@@ -1,34 +1,31 @@
 {{ partial "header.html" . }}
 
 <div class="section-page line-up">
-    <div class="container writing">
-		<h1 class="section-intro">{{.Title}}</h1>        
+	<div class="container writing">
+		<h1 class="section-intro">{{.Title}}</h1>
 		<div class="container split newzz">
 
 
-<div class="col4 whitebg" style="box-shadow:none; padding: 0;background-color:transparent"> 
-					<img data-src="images/lefwriting.png" width="400" alt="" class="lozad" style="position: absolute;top: -149px;left: -25px;">
-					
-					{{ range .Pages }}
+			<div class="col4 whitebg" style="box-shadow:none; padding: 0;background-color:transparent">
+				{{ range .Pages }}
 				<a href="{{.Permalink}}" class="linkblog" style="margin-bottom:20px;">
-				<h3 class="headingblogthumb">
-					<span class="datearticle">{{ .Date.Format "Mon, Jan 2" }}</span><br>
-								{{ .Title }} 
-				</h3>
-	
-                    <div class="blogthumb w-inline-block lozad" style="background-image:url(https://res.cloudinary.com/dxswtxauo/image/upload/w_400/q_auto{{ .Params.thumbnail }}); background-size: cover; background-position: center;">
-                    </div></a> {{ end }}
-	
-			
+					<h3 class="headingblogthumb">
+						<span class="datearticle">{{ .Date.Format "Mon, Jan 2" }}</span><br>
+						{{ .Title }}
+					</h3>
+
+					<div class="blogthumb w-inline-block lozad"
+						style="background-image:url(https://res.cloudinary.com/dxswtxauo/image/upload/w_400/q_auto{{.Params.thumbnail}}); background-size:cover;background-position:center;">
+					</div>
+				</a> {{ end }}
+
+
 			</div>
-			
-        </div>
-      </div>
-					{{ .Content | markdownify }}
 
-		
+		</div>
 	</div>
+	{{ .Content | markdownify }}
+
+
+</div>
 {{ partial "footer.html" . }}
-
-
-

@@ -53,7 +53,7 @@ b, strong {
 }
 
 a svg:hover {
-  stroke: #fa8d76;
+  stroke: #ef9c79;
 }
 
 .greenhome {
@@ -376,7 +376,7 @@ top: 556px;
 }
 
 .btn {
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   color: white, ;
   color: white;
   padding: 15px 41px;
@@ -584,7 +584,7 @@ div#w-node-dccfab5c11a5-feae796a{
 }
 
 .orange {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .col4 {
@@ -857,7 +857,7 @@ h3.section-intro.nomargin.greenz {
   border-radius: 50px;
   background-color: white;
   font-family: Akrobat;
-  color: #fa8d76;
+  color: #ef9c79;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -872,7 +872,7 @@ h3.section-intro.nomargin.greenz {
   bottom: -30px;
   z-index: 99;
   margin-left: 12px;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   box-shadow: 1px 1px 24px 0 rgba(0, 0, 0, 0.12);
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
@@ -890,7 +890,7 @@ h3.section-intro.nomargin.greenz {
   position: relative;
   z-index: 99;
   margin-bottom: 30px;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   box-shadow: 1px 1px 24px 0 rgba(0, 0, 0, 0.12);
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
@@ -952,11 +952,11 @@ svg:not(:root) {
 }
 
 .bloxbtn .btn svg:hover {
-  fill: #fa8d76;
+  fill: #ef9c79;
 }
 
 .bloxbtn .btn svg:focus {
-  fill: #fa8d76;
+  fill: #ef9c79;
 }
 
 .btcta.reverse:hover {
@@ -978,7 +978,7 @@ svg:not(:root) {
 .btcta.rev {
   z-index: 99;
   margin-top: 20px;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
@@ -1043,7 +1043,7 @@ svg:not(:root) {
 .partnerimg {
   position: relative;
   width: 87px;
-  margin-right: 40px;
+  margin-right: 39px;
   margin-bottom: 42px;
   padding-right: 0;
   -webkit-box-flex: 0;
@@ -1252,11 +1252,11 @@ img.leavescenter{
 
 .navlink-black:hover {
   opacity: 0.6;
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .navlink-black.w--current {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .bottompagebody {
@@ -1393,7 +1393,7 @@ img.leavescenter{
 }
 
 .ticketschoice.early {
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   background-position: 0px 100%, 0px 0px;
   background-size: 108px, auto;
   background-repeat: no-repeat, repeat;
@@ -1554,11 +1554,11 @@ details summary::-webkit-details-marker {
 }
 
 details summary h2:hover {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 details summary p a {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .heading-3 {
@@ -1596,7 +1596,7 @@ details summary p a {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   color: white;
   font-size: 18px;
   border-radius: 17px;
@@ -1614,7 +1614,7 @@ details summary p a {
 }
 
 body.news a.navlink-black.w-nav-link[href="/news"], body.green a.navlink-black.w-nav-link[href="/green"], body.food a.navlink-black.w-nav-link[href="/food"], body.practical a.navlink-black.w-nav-link[href="/practical"], body.contact a.navlink-black.w-nav-link[href="/contact"], body.artists a.navlink-black.w-nav-link[href="/lineup"] {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .artiste {
@@ -1732,7 +1732,7 @@ iframe {
 }
 
 .containartist a svg:hover {
-  stroke: #fa8d76;
+  stroke: #ef9c79;
 }
 
 .containartist h3 {
@@ -1766,7 +1766,7 @@ iframe {
 
 h3.daytxt {
   z-index: 99;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   color: white;
   font-size: 15px;
   padding: 3px 6px;
@@ -1826,7 +1826,7 @@ h3.daytxt {
 
 .btnback:before {
   content: "← ";
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .btnback {
@@ -1842,7 +1842,7 @@ h3.daytxt {
 }
 
 .btnback:hover {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 .textblock.w-richtext a {
@@ -1857,7 +1857,7 @@ h3.daytxt {
   width: 40px;
   padding: 5px;
   border-radius: 4px;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
 }
 
 .logotop {
@@ -1921,6 +1921,63 @@ html.w-mod-js *[data-ix="appearcontent"] {
 html.w-mod-js *[data-ix="boyload"] {
   opacity: 0;
 }
+.cloud-bottom{
+  position: absolute;
+  top: 250PX;
+  LEFT: 1100PX;
+}
+/*social icones*/
+button.joinustxt {
+    transform: none;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    background: 0 0;
+    z-index: 2;
+    outline: 0;
+  }
+  .smbuttons {
+    height: 157px;
+  }
+  span.form-required {
+    display: none !important;
+  }
+  .mc-embedded-subscribe-form{
+    transform: scaleX(-1);
+  }
+  #newsletter-form-wrapper input {
+    box-shadow: 0 0 10px 1px #ddd;
+    position: relative;
+    FONT-SIZE: 0.9EM;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    background-color: red;
+    padding: .3em 0.6em;
+    color: red;
+    width: 90%;
+    transition: opacity 50ms ease-out,transform 250ms ease-out,box-shadow 200ms ease-out;
+  }
+  #newsletter-form-wrapper {
+    box-shadow: 1px 1px 50px 0 rgba(0,0,0,.22);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 10px 10px 60px;
+    width: 290px;
+    height: 100%;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: opacity 50ms ease-out,transform 250ms ease-out;
+  }
+  #social-buttons input.newsletter-submit {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.6EM;
+
+  }
 
 .container.split {
   display: -webkit-box;
@@ -1934,8 +1991,8 @@ html.w-mod-js *[data-ix="boyload"] {
 }
 
 .datearticle {
-  font-size: 14px;
-  color: #fa8d76;
+  font-size: 19px;
+  color: #ef9c79;
   display: inline-block;
   text-align: center;
 }
@@ -1987,9 +2044,9 @@ button.btcta.rev.form {
   bottom: 332px;
   z-index: 100;
   width: 50px;
-  height: 240px;
+  height: 160PX;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: #fff;
   box-shadow: none;
   z-index: 99999999;
 }
@@ -2049,22 +2106,19 @@ img.iconez {
 }
 
 button.joinustxt {
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+  transform: rotate(360deg);
+  transform: scaleX(-1);
   display: block;
   font-family: Akrobat;
   font-size: 16px;
   position: absolute;
-  left: -27px;
-  top: 58px;
+  left: 0PX;
+  top: OPX;
   letter-spacing: 1px;
   text-transform: uppercase;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
   transform-origin: center;
   cursor: pointer;
-  background: transparent;
+  background: 0 0;
   z-index: 2;
   outline: 0;
 }
@@ -2094,9 +2148,9 @@ button.joinustxt {
 #social-buttons.opened #newsletter-form-wrapper {
   display: block;
   opacity: 1;
-  -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 #newsletter-form-wrapper input {
@@ -2129,6 +2183,17 @@ button.joinustxt {
   box-shadow: 0 0 5px 0 #ddd;
   outline: 0;
 }
+.imgtree.lozad{
+  width: 7%;
+  position: absolute;
+  top:152px;
+  right: 0;
+}
+.ctaleaves.lozad{
+  width: 11%;
+  TOP: -28PX;
+  transform: scaleX(-1);
+}
 
 #social-buttons input.newsletter-submit {
   text-transform: uppercase;
@@ -2138,7 +2203,7 @@ button.joinustxt {
   outline: 0;
   color: white;
   width: auto;
-  background-color: #fa8d76;
+  background-color: #ef9c79;
   -webkit-box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-20px);
@@ -2627,7 +2692,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     z-index: 99;
     margin-left: 0;
     margin-bottom: 16px;
-    background-color: #fa8d76;
+    background-color: #ef9c79;
     box-shadow: 1px 1px 24px 0 rgba(0, 0, 0, .12);
     transition: transform 200ms ease;
     font-family: Akrobat;
@@ -2980,13 +3045,13 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     color: white;
   }
   .menu-button.w--open {
-    background-color: #fa8d76;
+    background-color: #ef9c79;
   }
   .menu-button.navok {
-    color: #fa8d76;
+    color: #ef9c79;
   }
   .menu-button._2 {
-    color: #fa8d76;
+    color: #ef9c79;
   }
   .navbarblack {
     height: auto;
@@ -3077,7 +3142,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     display: none;
   }
   .icon-2 {
-    color: #fa8d76;
+    color: #ef9c79;
   }
   .containartist {
     width: 100%;
@@ -3143,7 +3208,7 @@ body {
 }
 
 a {
-  color: #fa8d76;
+  color: #ef9c79;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -3374,6 +3439,12 @@ Main Components
     max-width: none;
     margin-right: 0;
   }
+  .mc-embedded-subscribe-form{
+    transform: scalex(-1);
+    padding-right: 0px;
+    width: 100%;
+  }
+ 
   .cd-schedule .events .single-event a {
     padding: 1.2em;
   }
@@ -3511,11 +3582,11 @@ Main Components
 }
 
 .link-table:hover {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 
 body.fri .link-table[href="/timetable/friday"], body.sat .link-table[href="/timetable/saturday"], body.sun .link-table[href="/timetable/sunday"] {
-  color: #fa8d76;
+  color: #ef9c79;
 }
 h3.section-intro{
   color:white;text-shadow: 2px 2px 7px #2d282885; text-align:left;
