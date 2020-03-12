@@ -125,7 +125,32 @@ top: 556px;
   background-position: 0px 0px, 0px 0px;
   background-size: auto, 20px 200px;
 }
-
+div.flex.flexmobile{
+  margin-top: 2em;
+}
+p.sub{
+  margin-top: 1em !important;
+}
+.colored {
+  background-color: #ef9c79;
+  color: #fff;
+}
+h3.faq{
+  position: relative;
+  z-index: 2;
+  display: block;
+  overflow: hidden;
+  margin-right: auto;
+  margin-bottom: 44px;
+  margin-left: auto;
+  padding-top: 22px;
+  font-family: Akrobat;
+  color: #414141;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  text-align: center;
+}
 .container {
   position: relative;
   display: block;
@@ -136,6 +161,18 @@ top: 556px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+.containerwhite {
+  width: 30%;
+  font-size: .8em;
+  text-transform: uppercase;
+  margin: 0 10px;
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: 3px 3px 49px 14px rgba(0, 0, 0, .06);
+  border-radius: 30px;
+  padding: 15px;
+  text-align: CENTER;
 }
 
 .container.split {
@@ -174,7 +211,7 @@ top: 556px;
   text-transform: none;
 }
 
-.container.split.center {
+.container.split.centering {
   margin-top: 77px;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
@@ -569,6 +606,7 @@ div#w-node-dccfab5c11a5-feae796a{
   color: #5c5c5c;
   font-size: 1.2em;
   line-height: 27px;
+  margin-top: 100PX;
   font-weight: 400;
 }
 
@@ -581,6 +619,8 @@ div#w-node-dccfab5c11a5-feae796a{
   line-height: 2em;
   margin-bottom: 2em;
   font-size: 1.3em;
+  margin-top: 4em;
+
 }
 
 .orange {
@@ -1725,6 +1765,10 @@ iframe {
 .containartist {
   text-align: center;
 }
+.daysmalltxt{
+  text-align: left;
+  padding-left: 25px;
+}
 
 .containartist a {
   margin-top: 10px;
@@ -1738,7 +1782,8 @@ iframe {
 .containartist h3 {
   text-transform: uppercase;
   font-size: 1.4em;
-  display: inline-block;
+  text-align: left;
+    padding-left: 25px;
   font-family: Akrobat;
   font-weight: 100;
   margin-top: 8px;
@@ -1779,7 +1824,10 @@ h3.daytxt {
   left: 10px;
   text-transform: uppercase;
 }
-
+.daytxt{
+  text-align: left;
+  padding-left: 25px;
+}
 .solo .block50 {
   padding: 10px
 }
@@ -1947,25 +1995,13 @@ button.joinustxt {
   .mc-embedded-subscribe-form{
     transform: scaleX(-1);
   }
-  #newsletter-form-wrapper input {
-    box-shadow: 0 0 10px 1px #ddd;
-    position: relative;
-    FONT-SIZE: 0.9EM;
-    border: none;
-    margin-bottom: 6px;
-    border-radius: 10px;
-    background-color: red;
-    padding: .3em 0.6em;
-    color: red;
-    width: 90%;
-    transition: opacity 50ms ease-out,transform 250ms ease-out,box-shadow 200ms ease-out;
-  }
+
   #newsletter-form-wrapper {
     box-shadow: 1px 1px 50px 0 rgba(0,0,0,.22);
     border-radius: 10px;
     background-color: #fff;
-    padding: 10px 10px 10px 60px;
-    width: 290px;
+    padding: 10px 0px 10px 0px;
+    width: 268px;
     height: 100%;
     opacity: 0;
     transform: scaleX(0);
@@ -2041,7 +2077,7 @@ button.btcta.rev.form {
 .smbuttons {
   position: fixed;
   right: 60px;
-  bottom: 332px;
+  top: 134px;
   z-index: 100;
   width: 50px;
   height: 160PX;
@@ -2123,27 +2159,7 @@ button.joinustxt {
   outline: 0;
 }
 
-#newsletter-form-wrapper {
-  -webkit-box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.22);
-  box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.22);
-  border-radius: 10px;
-  background-color: white;
-  padding: 44px 10px 20px 60px;
-  width: 290px;
-  height: 100%;
-  opacity: 0;
-  -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: left;
-  -ms-transform-origin: left;
-  transform-origin: left;
-  -webkit-transition: opacity 50ms ease-out, -webkit-transform 250ms ease-out;
-  transition: opacity 50ms ease-out, -webkit-transform 250ms ease-out;
-  -o-transition: opacity 50ms ease-out, transform 250ms ease-out;
-  transition: opacity 50ms ease-out, transform 250ms ease-out;
-  transition: opacity 50ms ease-out, transform 250ms ease-out, -webkit-transform 250ms ease-out;
-}
+
 
 #social-buttons.opened #newsletter-form-wrapper {
   display: block;
@@ -2152,13 +2168,19 @@ button.joinustxt {
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+#newsletter-form-wrapper span:after {
+  content: "";
+  /* color: red; */
+  margin-left: 5px;
+}
 
 #newsletter-form-wrapper input {
   -webkit-box-shadow: 0 0 10px 1px #ddd;
   box-shadow: 0 0 10px 1px #ddd;
   position: relative;
   border: none;
-  margin-bottom: 26px;
+  margin-bottom: 6px;
+  FONT-SIZE: 13PX;
   border-radius: 10px;
   background-color: white;
   padding: 0.5em 1em;
@@ -2171,11 +2193,6 @@ button.joinustxt {
   transition: opacity 50ms ease-out, transform 250ms ease-out, box-shadow 200ms ease-out, -webkit-transform 250ms ease-out, -webkit-box-shadow 200ms ease-out;
 }
 
-#newsletter-form-wrapper span:after {
-  content: "*";
-  color: red;
-  margin-left: 5px;
-}
 
 #newsletter-form-wrapper .newsletter-txt-input:focus {
   color: #999999;
@@ -2199,7 +2216,7 @@ button.joinustxt {
   text-transform: uppercase;
   line-height: 1;
   font-size: 13px;
-  padding: 1em 2em;
+  padding: 0.6em 1.8em;
   outline: 0;
   color: white;
   width: auto;
@@ -2214,6 +2231,11 @@ button.joinustxt {
   -o-transition: transform 250ms 250ms ease-out;
   transition: transform 250ms 250ms ease-out;
   transition: transform 250ms 250ms ease-out, -webkit-transform 250ms 250ms ease-out;
+}
+
+
+div.mc_embed_signup{
+  
 }
 
 #social-buttons.opened input.newsletter-submit {
@@ -2891,6 +2913,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     font-size: 17px;
     padding: 0px 0px 5px;
   }
+ 
   .section-intro {
     line-height: 37px;
   }
@@ -3001,7 +3024,6 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .container.split.nomargin {
     margin-bottom: 0;
     margin-top: 0;
-    background: white;
     margin: 0px 20px;
     border-radius: 30px;
     padding: 0px;
@@ -3211,6 +3233,9 @@ a {
   color: #ef9c79;
   text-decoration: none;
   font-weight: bolder;
+}
+p.bold{
+  margin-top: 0.2em;
 }
 
 /* -------------------------------- 
@@ -3501,7 +3526,7 @@ Main Components
   display: none;
   padding: 2px 4px;
   border-radius: 2px;
-  background-color: #5cceb4;
+  background-color: #9AB9E6;
 }
 
 .single-event .event-date1 {
@@ -3514,7 +3539,7 @@ Main Components
   display: inline-block;
   padding: 2px 4px;
   border-radius: 2px;
-  background-color: #5cceb4;
+  background-color: #9AB9E6;
   color: white;
 }
 
@@ -3533,7 +3558,7 @@ Main Components
 .cd-schedule .single-event[data-event="event-1"], .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
   background: #f3ece3c7;
-  border-left: 3px solid #5dceb4;
+  border-left: 3px solid #9AB9E6;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
@@ -3572,6 +3597,10 @@ Main Components
   position: relative;
   top: 4px;
 }
+h3.section-intro.nomargin.greenz:first-letter
+{
+  color:#8fa768;
+}
 
 .link-table {
   font-family: "Akrobat";
@@ -3589,7 +3618,13 @@ body.fri .link-table[href="/timetable/friday"], body.sat .link-table[href="/time
   color: #ef9c79;
 }
 h3.section-intro{
-  color:white;text-shadow: 2px 2px 7px #2d282885; text-align:left;
+  color:black;
+   text-align:left;
+}
+h3.duction{
+  color: black;
+  text-shadow: none;
+  text-align: center;
 }
 
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
