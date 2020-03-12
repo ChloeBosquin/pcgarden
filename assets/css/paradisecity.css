@@ -1327,6 +1327,7 @@ img.leavescenter{
   width: 20%;
 }
 
+
 .bradn2:hover {
   opacity: 0.8;
 }
@@ -1344,6 +1345,7 @@ img.leavescenter{
 
 .section-page.line-up {
   margin-top: 45px;
+  width: 100%;
 }
 
 .block-icons {
@@ -2069,6 +2071,7 @@ button.btcta.rev.form {
 .container.split.margin-bottom:nth-child(odd) {
   flex-direction: row-reverse;
   text-align: right;
+  margin-bottom: 0px;
 }
 .block50.smaller{
   width: 30%;
@@ -2723,9 +2726,19 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     margin-bottom: 10px;
     ;
   }
+  form.contactform input
+ {
+    height: 60px;
+    width: 90%;
+  }
+  #txtareab{
+    width: 90%;
+  }
   .btnlineup.all {
     border-radius: 50px;
     margin-right: 5px;
+    width: 60%;
+    MARGIN: 5% 20%;
   }
   .container.split.margin-bottom {
     -webkit-box-orient: vertical;
@@ -2855,6 +2868,9 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     z-index: 100;
     width: 17%;
 }
+.iconmarg{
+  margin-top: 80px;
+}
 .feuillegriseleft {
     position: absolute;
     top: 202px;
@@ -2892,6 +2908,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .txtblock.green.page {
     display: inline-block;
     text-align: left;
+    margin-top: 20px;
   }
   .col4.whitebg {
     padding-top: 0;
@@ -3046,6 +3063,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .container.split.margin-bottom {
     flex-direction: column;
     text-align: center;
+    margin-bottom: 0px;
   }
   .feuille.rouge {
     right: -90px;
@@ -3738,6 +3756,16 @@ h3.duction{
   h3.section-intro{
     text-align: center;
     font-size: 1.4em;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  h3.duction{
+    margin: 0px 0px;
+    padding: 0px;
+  }
+  .textblock p {
+    margin-bottom: 0em;
+    margin-top: 2em;
   }
   .feuillesarbre2 {
     position: absolute;
