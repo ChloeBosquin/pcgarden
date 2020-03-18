@@ -383,12 +383,7 @@ h3.faq{
   position: absolute;
   width: 20%;
 }
-.hiddendesktop{
-  border-radius: 60px;
-}
-summary>h2{
-  display:inline-block; cursor: pointer;font-size: 1.6em;
-}
+
 .hero-content {
   position: relative;
   z-index: 99;
@@ -1383,8 +1378,9 @@ img.leavescenter{
 }
 
 .navmenu2 {
-    display: block;
-    width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .col4.greencard {
@@ -1632,9 +1628,6 @@ details summary p a {
 .textblock li {
   line-height: 2em;
 }
-.cloudnav,.sm-mobile{
-  display: none;
-}
 
 .lastnav {
   margin-right: -2px;
@@ -1832,11 +1825,6 @@ h3.daytxt {
   top: 5px;
   left: 10px;
   text-transform: uppercase;
-}
-textarea{
-  height: 200px;
-  padding: 10px;
-  width: 90%;
 }
 .daytxt{
   text-align: left;
@@ -2182,20 +2170,6 @@ button.joinustxt {
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
-}
-a.ticket-mobile {
-  margin-left: 14px;
-  margin: AUTO;
-  left: 27px;
-  width: 10%;
-  TEXT-ALIGN: center;
-  padding: 8px;
-  background-color: #ef9c79;
-  color: #fff;
-  font-size: 14px;
-  border-radius: 17px;
-  POSITION: relative;
-  TOP: 10PX;
 }
 #newsletter-form-wrapper span:after {
   content: "";
@@ -2634,7 +2608,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .logobottom{
     position: absolute;
-    bottom: -126px;
+    bottom: -100px;
 }
 .image-2 {
   margin-top: 0px !important;
@@ -2787,13 +2761,9 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .container.nav {
     text-align: center;
-    margin-bottom: 0px;
-    background: transparent;
   }
   .ticketschoice {
-    width: 75%;
-    height: 59%;
-    FONT-SIZE: 9PX;
+    width: 100%;
   }
   .nav-link {
     margin-left: 0px;
@@ -2804,7 +2774,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     width: 100%;
   }
   .heading-3 {
-    font-size: 28px;
+    font-size: 34px;
     text-align: center;
   }
   .navbar {
@@ -2816,7 +2786,9 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     height: 100vh;
     background-color: #fffdf8;
   }
- 
+  .smbuttons {
+    display: none;
+  }
   .heading {
     font-size: 49px;
     line-height: 49px;
@@ -2824,22 +2796,6 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .heading-2 {
     font-size: 37px;
     line-height: 46px;
-  }
-  .icon-nav-cross{
-    color: #ef9c79;
-    font-size: 24PX;
-    margin: 10PX 0PX 0PX;
-  }
-  .sm-mobile{
-    display: inline-flex;
-    margin: auto;
-    flex-direction: row;
-    position: unset;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  .mobile-a>a{
-    padding: 0PX 10PX;
   }
   .btn-hero {
     display: block;
@@ -2977,7 +2933,6 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
  
   .section-intro {
     line-height: 37px;
-    font-size: 31px;
   }
   h3.section-intro.nomargin.greenz {
     text-align: center;
@@ -3129,43 +3084,9 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     z-index: 1000;
     color: white;
   }
-  .container.writing {
-    margin: 0 0px;
-   }
   .menu-button.w--open {
     background-color: #ef9c79;
   }
-  .section-intro {
-    line-height: 37px;
-    margin-top: 63px;
-    margin-bottom: 0px;
-}
-img.cloud-mobile{
-  position: absolute;
-  top: 95px;
-  width: 35%;
-  right: 58px;
-  
-}
-.cloudnav{
-  position: absolute;
-  display: block;
-    top: 0;
-    width: 50%;
-}
-#menu-cross{
-      width: 30%;
-      margin-top: 10px;
-    display: block;
-    margin-left: auto;
-}
-.container.split.newzz {
-  margin-top: 59px;
-}
-.icon-nav-cross:before {
-  content: "\2716";
-  z-index:9999;
-}
   .menu-button.navok {
     color: #ef9c79;
   }
@@ -3175,22 +3096,13 @@ img.cloud-mobile{
   .navbarblack {
     height: auto;
     padding-top: 0px;
-    background: white;
   }
-  body.is-opened .homefixednav.is-visible #mobile-nav {
-    top: -25PX;
-  }
- 
   .navlink-black {
+    margin-left: 0px;
     color: #555;
     text-align: center;
     text-transform: uppercase;
     font-family: Akrobat;
-      margin-left: 0px;
-      padding-top: 26px;
-      padding-left: 20px;
-      color: #575757;
-      font-size: 20px;
   }
   .navlink-black.w--current {
     display: block;
@@ -3201,26 +3113,9 @@ img.cloud-mobile{
     right: 0px;
   }
   .uppagebody-left {
-    top: 0px;
-    margin-top: 61PX;
-    width: 29%;
+    max-width: 30%;
   }
   .bradn2 {
-    margin-top: 16px;
-    margin-left: 10px;
-    display: block;
-  }
-  textarea{
-    width: 90%;
-  }
-  summary>h2{
-    font-size: 1.4em;
-  }
-  .textblock ul {
-    padding-left: 0px;
-}
-
-  img.cloud-left, img.cloud-right{
     display: none;
   }
   .block-icons {
@@ -3294,17 +3189,14 @@ img.cloud-mobile{
     margin-right: 0px;
   }
   .logobottom {
-    width: 150px;
-  }
-  .container.default{
-    PADDING-top:0px;
+    width: 107px;
   }
   .circlelogoonly {
     width: 118px;
     margin-top: 1px;
   }
   .section-page.line-up {
-    margin-top: -15PX;
+    margin-top: 0;
   }
 }
 
@@ -3777,8 +3669,7 @@ h3.duction{
 /* MOBILE NAV */
 
 @media screen and (max-width: 991px) {
-  
-
+  body.is-opened {}
   #mobile-nav {
     position: fixed;
     left: 0;
@@ -3862,57 +3753,6 @@ h3.duction{
   .homefixednav.is-visible #mobile-nav {
     top: 75px;
   }
-  .nav-mobile-home{
-  DISPLAY: inline-flex;
-  FLEX-DIRECTION: column;
-  background: red;
-  z-index: 9999;
-  WIDTH: 100%;
-}
-  body.is-opened #mobile-nav {
-    top: 0px;
-    height: 100%;
-    z-index: 9999;
-  }
-  .social-buttons-home{
-    margin: 30px auto;
-    display: inline-flex;  flex-direction: row;
-            position: unset;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-  }
-  #button-ticket-home{
-    padding: 8px;
-    background-color: #ef9c79;
-    color: #fff;
-    font-size: 16px;
-    border-radius: 17px;
-    width: 30% !important;
-    margin: 0px auto;
-  }
-  .cloudnav-home{
-    position: absolute;
-    display: block;
-    top: 93px;
-    width: 50%;
-  }
-  #menu-cross-home{
-    width: 30%;
-    margin-top: -264px;
-    display: block;
-    margin-left: auto;
-  }
-  a.ticket-mobile{
-    margin-right: -2px;
-    margin: AUTO;
-    margin-bottom: 15px;
-    WIDTH: 30%;
-    padding: 8PX;
-    background-color: #ef9c79;
-    color: #fff;
-    font-size: 16px;
-    border-radius: 17px;
-  }
   h3.section-intro{
     text-align: center;
     font-size: 1.4em;
@@ -3925,7 +3765,7 @@ h3.duction{
   }
   .textblock p {
     margin-bottom: 0em;
-    margin-top: 1em;
+    margin-top: 2em;
   }
   .feuillesarbre2 {
     position: absolute;
@@ -3933,19 +3773,14 @@ h3.duction{
     width: 92%;
     z-index: 1;
   }
-  .txtblock{
-    margin-top: 2em;
-  }
   #container-nav{
     height: 78px;
     margin: 0px;
     background: white;
   }
-  .hiddendesktop{
-    border-radius: 30px;
+  body.is-opened .homefixednav.is-visible #mobile-nav {
+    top: 76px;
   }
-  
-  
 }
 
 @media screen and (min-width: 480px) and (max-width: 991px) {
