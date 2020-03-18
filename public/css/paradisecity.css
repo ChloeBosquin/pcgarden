@@ -2045,7 +2045,9 @@ a.blogthumb.w-inline-block {
 }
 
 @media (max-width: 479px) {
-	
+    h1.section-intro{
+        color:red;
+      }
 
 	.section-intro.col.whitebg img {
 		position: relative;
