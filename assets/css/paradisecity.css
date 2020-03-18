@@ -40,7 +40,9 @@ p {
 p a {
   text-decoration: none;
 }
-
+#attend{
+  margin-left:0px;
+}
 b, strong {
   font-family: "Akrobat";
 }
@@ -1335,6 +1337,7 @@ img.leavescenter{
 .section-page {
   position: relative;
   margin-top: 100px;
+
   padding-top: 61px;
 }
 
@@ -1567,7 +1570,9 @@ div.img-header{
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
-
+.hiddendesktop{
+  border-radius: 60px;
+}
 .headarticle span.datearticle {
   display: block;
   font-size: 20px;
@@ -2761,6 +2766,8 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .container.nav {
     text-align: center;
+    height: 56px;
+    margin: 0px;
   }
   .ticketschoice {
     width: 100%;
@@ -2792,6 +2799,18 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .heading {
     font-size: 49px;
     line-height: 49px;
+  }
+  .hiddendesktop{
+    border-radius: 30px;
+  }
+  .containerwhite {
+    width: 80%;
+    font-size: .8em;
+    text-transform: uppercase;
+    margin: 10PX auto 15PX;
+  }
+  div.flex.block50 {
+    flex-direction: column;
   }
   .heading-2 {
     font-size: 37px;
@@ -2933,9 +2952,17 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
  
   .section-intro {
     line-height: 37px;
+    margin-left: auto;
+    padding-top: 55px;
   }
   h3.section-intro.nomargin.greenz {
     text-align: center;
+  }
+  .container.default{
+    padding-top: 0px;
+  }
+  #attend{
+    margin: 10px auto;
   }
   h3.section-intro{
     text-align: center;
@@ -3095,7 +3122,8 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   }
   .navbarblack {
     height: auto;
-    padding-top: 0px;
+    padding-top: 0;
+    background: white;
   }
   .navlink-black {
     margin-left: 0px;
@@ -3113,10 +3141,15 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     right: 0px;
   }
   .uppagebody-left {
-    max-width: 30%;
+    max-width: 45%;
+    WIDTH: 45%;
+      left: 0px;
+      TOP: 28PX;
   }
   .bradn2 {
-    display: none;
+     width: 103px;
+    margin-top: 13px;
+    margin-left: 5px;
   }
   .block-icons {
     margin-top: 0px;
@@ -3180,6 +3213,14 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
   .lastnav.w--current {
     /* display: block; */
     display: none;
+  }
+  .cloud-right{
+    display: none;
+  }
+  .cloud-left{
+    top:99px;
+    width: 25%;
+    left: 217px;
   }
   .icon-2 {
     color: #ef9c79;
@@ -3753,6 +3794,9 @@ h3.duction{
   .homefixednav.is-visible #mobile-nav {
     top: 75px;
   }
+  form.contactform textarea{
+    width: 90%;
+  }
   h3.section-intro{
     text-align: center;
     font-size: 1.4em;
@@ -3763,9 +3807,14 @@ h3.duction{
     margin: 0px 0px;
     padding: 0px;
   }
-  .textblock p {
+  .textblock p.check {
     margin-bottom: 0em;
-    margin-top: 2em;
+    width: 74%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container.writing{
+    padding-top: 29px;
   }
   .feuillesarbre2 {
     position: absolute;
@@ -3781,6 +3830,11 @@ h3.duction{
   body.is-opened .homefixednav.is-visible #mobile-nav {
     top: 76px;
   }
+  body.is-opened #mobile-nav{
+    top: 70px;
+    z-index: 9999;
+  }
+ 
 }
 
 @media screen and (min-width: 480px) and (max-width: 991px) {
