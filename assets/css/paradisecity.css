@@ -3275,7 +3275,7 @@ input.newsletter-submit:hover, input.newsletter-submit:active {
     background-position: bottom;
     background-size: contain;
     margin-top: -57px;
-    background-image: url(/images/bgheader-mobile.png), linear-gradient(0deg, rgba(239, 156, 121, 1) 0%, rgba(239, 156, 121, 1) 28%, rgba(117, 205, 229, 1) 43%, rgba(117, 205, 229, 1) 57%, rgba(55, 161, 211, 1) 73%, rgba(34, 123, 188, 1) 97%);
+    background-image: url(/images/bgheader-mobile.webp), linear-gradient(0deg, rgba(239, 156, 121, 1) 0%, rgba(239, 156, 121, 1) 28%, rgba(117, 205, 229, 1) 43%, rgba(117, 205, 229, 1) 57%, rgba(55, 161, 211, 1) 73%, rgba(34, 123, 188, 1) 97%);
   }
   .homefixednav {
     height: 0;
